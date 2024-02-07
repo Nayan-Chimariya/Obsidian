@@ -30,9 +30,14 @@ node test
 ```
 
 #### Creating node package
+
 - What is a node package?
 	A package in Node.js contains all the files you need for a module.
 	Modules are JavaScript libraries you can include in your project.
+	
+- Why we create it?
+	Creating a package. json file is typically the first step in a Node project, and you need one to install dependencies in npm. If you're starting a project from scratch, you create a package. json file **to hold important metadata about your project and record your dependencies**.
+	
 - Command to initialize:
 ```node
 nmp init
